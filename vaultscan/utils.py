@@ -19,7 +19,6 @@ SECRET_PATTERNS = {
     "DB Connection String": r"(?i)(postgres|mysql|mongodb):\/\/.+:[^@]+@[^:\/]+",
     "Basic Auth URL": r"https?:\/\/[^\/\s]+:[^\/\s]+@[^\/\s]+",
     "Twilio Auth Token": r"(?i)twilio.*(?:token|auth)[\s:=]+[a-f0-9]{32}",
-    "Private Key": r"-----BEGIN PRIVATE KEY-----",
     "Generic API Key": r"(?i)(?:api|apikey|token|secret)[^a-zA-Z0-9]*[0-9a-zA-Z]{16,}"
 }
 
